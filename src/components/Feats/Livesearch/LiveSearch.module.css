@@ -1,0 +1,46 @@
+/* LiveSearch.module.css */
+.LiveSearch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    padding: 1em;
+    border: 1px solid rgba(255, 158, 102, 0.8);
+    border-radius: 1em;
+    background: linear-gradient(to right, #ff9966 0%, #ff5e62 100%);
+    color: white;
+  }
+  
+  .LiveSearch input {
+    margin: 1em 0;
+    padding: 0.5em;
+    font-size: 1em;
+    border-radius: 0.5em;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .LiveSearch ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .LiveSearch li {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    color: white;
+  }
+  
+  .LiveSearch p {
+    color: white;
+    font-size: 1em;
+  }
+  

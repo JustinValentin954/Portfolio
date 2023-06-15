@@ -1,0 +1,65 @@
+.Form {
+    background: linear-gradient(to right, #ff9966 0%, #ff5e62 100%);
+    color: white;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .Form h2 {
+    margin-bottom: 1em;
+    font-size: 1.5em; /* Adjusted font size */
+  }
+  
+  .Form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .Form input, .Form select, .Form textarea, .Form button {
+    margin: 0.5em 0; /* Adjusted space between fields */
+    padding: 0.5em; /* Adjusted space inside fields */
+    width: 100%;
+    font-size: 1em; /* Adjusted font size */
+  }
+  
+  .Form button {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #ff5e62;
+  }
+  
+  .Error {
+    border-color: #ff0000;
+  }
+  
+  @media screen and (min-width: 769px) {
+    .Form {
+      width: 60%; /* Adjusted width for larger screens */
+    }
+    .Form h2 {
+      font-size: 2em; /* Adjusted font size for larger screens */
+    }
+    .Form input, .Form select, .Form textarea, .Form button {
+      padding: 1em; /* Adjusted padding inside fields for larger screens */
+      font-size: 1.2em; /* Adjusted font size for larger screens */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .Form {
+      width: 80%; /* Increased width for smaller screens */
+    }
+    .Form input, .Form select, .Form textarea, .Form button {
+      padding: 0.5em; /* Adjusted padding inside fields for smaller screens */
+      font-size: 0.8em; /* Adjusted font size for smaller screens */
+    }
+  }
+  

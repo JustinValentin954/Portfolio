@@ -1,0 +1,49 @@
+.Introduction {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Introduction h1 {
+  font-size: 2em;
+  text-align: center;
+  width: 100%;
+}
+
+.Intro-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.Intro-content img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 2em;
+}
+
+.Intro-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .Intro-content {
+    flex-direction: column;
+  }
+
+  .Intro-content img {
+    margin-bottom: 2em;
+  }
+}
+
+

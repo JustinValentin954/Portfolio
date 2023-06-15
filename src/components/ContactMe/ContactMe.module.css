@@ -1,0 +1,32 @@
+.ContactMe {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+  
+.ContactMe h2 {
+  font-size: 2em;
+  margin-top: 0; /* Add this line */
+}
+  
+.IconContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 2em;
+}
+
+.Icon {
+  color: white;
+  font-size: 2em;
+  transition: color 0.3s ease;
+}
+
+.Icon:hover {
+  color: grey;
+}

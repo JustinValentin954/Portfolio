@@ -1,0 +1,45 @@
+.Skills {
+  background-color: var(--color-secondary);
+  color: white;
+  padding: 1em 2em 2em; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+  
+.Skills h1 {
+  font-size: 2em;
+  margin-top: 0; 
+}
+  
+.Skills p {
+  font-size: 1em;
+}
+
+.SkillCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+  justify-items: center;
+}
+
+.card {
+  background-color: var(--color-quaternary);
+  color: white;
+  padding: 1em;
+  border-radius: 0.5em;
+  width: 200px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) { 
+  .SkillCards {
+    grid-template-columns: 1fr; /* Adjusts the grid to stack cards vertically */
+  }
+
+  .card {
+    width: 100%; /* Adjusts the card width to be full width */
+  }
+}
